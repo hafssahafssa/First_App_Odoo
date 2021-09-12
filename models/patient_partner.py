@@ -23,4 +23,5 @@ class CabinetPatientPartner(models.Model):
     mode_du_paiement = fields.Selection([('cheque', 'Chéque'), ('espece', 'Espece')])
 
     ordonance_ids = fields.One2many("cabinet.ordonance", "patient_id")
+    appoitement_ids = fields.One2many("cabinet.appoitement", "patient_id")
 

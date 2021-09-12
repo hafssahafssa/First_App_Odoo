@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="cabinet_normal_group" model="res.groups">
+            <field name="name">Cabinet Normal User</field>
+        </record>
+         <record id="cabinet_manager_group" model="res.groups">
+            <field name="name">Cabinet Manager User</field>
+        </record>
+    </data>
+</odoo>

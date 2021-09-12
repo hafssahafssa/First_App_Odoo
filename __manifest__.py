@@ -22,12 +22,19 @@
     'depends': ['sale_management'],
     # always loaded
     'data': [
+'reports/reports.xml',
+        'reports/reports_templates.xml',
+
+        'security/cabinet_security.xml',
         'security/ir.model.access.csv',
         'views/patient_view.xml',
         'views/ordonance_view.xml',
         'views/consultation_view.xml',
         'views/medicament_view.xml',
-        'views/paiement.xml'
+        'views/paiement.xml',
+        'views/appoitement_view.xml',
+
+
 
     ],
     'installable': True,
